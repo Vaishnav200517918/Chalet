@@ -553,3 +553,12 @@
     padding: 64px 64px;
   }
 }
+
+@media (max-width: 991px) {
+  .navbar-collapse {
+    background: #232343;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
