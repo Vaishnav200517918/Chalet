@@ -379,7 +379,7 @@
 /*  */
 .home-about {
   position: relative;
-  background-image: url("./img/image2.webp");
+  background-image: url("../img/image2.webp");
   background-size: cover;
   background-position: center;
   color: white;
