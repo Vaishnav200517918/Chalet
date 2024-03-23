@@ -550,7 +550,10 @@
     height: 300px;
   }
   .home-contact-container {
-    padding: 64px 64px;
+    padding: 64px 32px;
+  }
+  .subscribe-text {
+    padding: 15px !important;
   }
 }
 
