@@ -572,3 +572,68 @@
 .iccon{
   color:white;
 }
+
+/*  */
+
+.services {
+    padding: 64px 88px;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article-title {
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 56px;
+}
+
+.article-subtitle, .article-title, .article-text, .services-title {
+    text-align: center;
+}
+
+.p-relative {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.servCircleBox {
+    width: fit-content;
+    height: 100%;
+    border-radius: 100px;
+    background-color: #fff;
+    display: block;
+    box-shadow: 0 3px 15px #1d4f3a38;
+    border: 10px solid;
+    border-color: #232343 #232343 #fff  ;
+    text-decoration: none;
+    position: relative;
+    z-index: 22;
+}
+
+.servCircleBox:hover {
+    border-color: #fff #fff #232343  ;
+}
+
+.servCircleBox .circleContent {
+    width: 170px;
+    height: 170px;
+    border-radius: 100px;
+    flex-direction: column;
+    box-shadow: 0 3px 20px #1d4f3a26;
+}
+
+.servCircleBox, .servCircleBox .circleContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-primary {
+    color: #232343!important;
+}
