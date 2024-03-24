@@ -578,10 +578,10 @@
     padding: 64px 88px;
 }
 
-@media (max-width: 991px) {
+/* @media (max-width: 991px) {
   .services {
     padding: 0;
-}
+} */
 .article {
     display: flex;
     flex-direction: column;
