@@ -629,7 +629,7 @@
 
 @media (max-width: 499px) {
   .home-section-two {
-    height: 65vh !important;
+    height: 80vh !important;
 
     flex-direction: column-reverse !important;
   }
