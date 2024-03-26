@@ -549,6 +549,14 @@
   .logo-slider {
     height: 350px;
   }
+   .contact-img-container {
+    height: unset !important;
+    padding-top: 50px;
+  }
+
+  .home-about-button {
+    padding-bottom: 20px;
+  }
 }
 
 @media (max-width: 499px) {
