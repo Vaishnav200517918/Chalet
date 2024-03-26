@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chalet</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -75,17 +78,28 @@
     <!-- Main -->
     <main>
       <!-- Hero Section -->
-      <section class="hero-section">
-        <div>
+      <section class="hero-section position-relative">
+        <video
+          class="home-video home-video-main position-absolute z-n1"
+          playsinline
+          autoplay
+          muted
+          loop
+        >
+          <source src="./img/downtown-dubai.mp4" type="video/mp4" />
+        </video>
+        <div class="">
           <h1 class="">
             "Unlock Dubai with Chalet International: Your Key to Premium
             Property Investments"
           </h1>
           <div class="home-search-container">
             <div>
-              <button type="button" class="btn btn-light btn-home">Buy</button>
-              <button type="button" class="btn btn-light btn-home">Sell</button>
-              <button type="button" class="btn btn-light btn-home">Rent</button>
+              <button type="button" class="btn btn-light btn-home">Buy</button
+              ><button type="button" class="btn btn-light btn-home">Sell</button
+              ><button type="button" class="btn btn-light btn-home">
+                Rent
+              </button>
             </div>
             <input
               class="home-search"
@@ -96,17 +110,47 @@
         </div>
       </section>
 
-      <section id="video-section">
+      <!-- <section id="video-section">
         <div id="video-container">
           <video class="home-video" playsinline autoplay muted loop>
             <source src="./img/video.mp4" type="video/mp4" />
           </video>
         </div>
+      </section> -->
+
+      <section class="home-about home-section-two">
+        <div class="container-fluid">
+          <div id="home-about-row" class="row">
+            <div class="col-md-6 z-1">
+              <video class="home-video" playsinline autoplay muted loop>
+                <source
+                  src="./img/Arada Broker Awards Reel Extended.mp4"
+                  type="video/mp4"
+                />
+              </video>
+            </div>
+
+            <div class="col-md-6" id="home-about-right">
+              <h2 class="home-about-title home-about2-title subheading">
+                Properties beyond your expectations
+              </h2>
+
+              <p class="home-about-p">
+                We work relentlessly to provide a modern era brokerage
+                experience and hassle-free tailored real estate consultancy for
+                investors & families alike.
+              </p>
+              <div class="home-about-button">
+                <a href="#" class="btn-custom2">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
       <!--  -->
       <section id="featured-properties">
-        <h2 class="text-center fw-semibold">FEATURED LISTINGS</h2>
+        <h2 class="text-center subheading">FEATURED LISTINGS</h2>
         <section class="collection">
           <div class="swiper mySwiper2">
             <div class="swiper-wrapper">
@@ -213,89 +257,104 @@
           </div>
         </section>
       </section>
-<!--        -->
+      <!--        -->
       <section id="services" class="services">
-      <div class="article">
-        <h2 class="text-center fw-semibold pb-5">SERVICES</h2>
-       
-      </div>
-  
-        <div class="container">
-            <div class="row g-3 ">
-                <div class="col-12 col-lg-3 col-md-3 ">
-                    <div class="p-relative">
-                        <a class="servCircleBox">
-                          <div class="my-auto circleContent">
-                              <center>
-                                  <img src="./img/rent.png" class="img-fluid" width="50px">
-                              </center>
-                               <div class="text-primary mt-2 text-center">
-                                  <h6 class="fw-bold mb-0">Buying</h6>
-                              </div>
-                          </div>
-                         
-                      </a>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-3 col-md-3">
-                    <div class="p-relative">
-                        <a class="servCircleBox">
-                          <div class="my-auto circleContent">
-                              <center>
-                                  <img src="./img/deal.png"  class="img-fluid" width="50px">
-                              </center>
-                               <div class="text-primary mt-2 text-center">
-                                  <h6 class="fw-bold mb-0">Commercial</h6>
-                              </div>
-                          </div>
-                         
-                      </a>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-3 col-md-3">
-                    <div class="p-relative">
-                        <a class="servCircleBox" >
-                          <div class="my-auto circleContent">
-                              <center>
-                                  <img src="./img/cooperation.png"  class="img-fluid" width="50px">
-                              </center>
-                               <div class="text-primary mt-2 text-center">
-                                  <h6 class="fw-bold mb-0">Joint Venture</h6>
-                              </div>
-                          </div>
-                         
-                      </a>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-3 col-md-3">
-                    <div class="p-relative">
-                        <a class="servCircleBox" >
-                          <div class="my-auto circleContent">
-                              <center>
-                                  <img src="./img/mortgage-loan.png"  class="img-fluid" width="50px">
-                              </center>
-                               <div class="text-primary mt-2 text-center">
-                                  <h6 class="fw-bold mb-0">Plots</h6>
-                              </div>
-                          </div>
-                         
-                      </a>
-                    </div>
-                </div>
-            </div>
+        <div class="article">
+          <h2 class="text-center subheading pb-5">SERVICES</h2>
         </div>
-    </section>
+
+        <div class="container">
+          <div class="row g-3">
+            <div class="col-12 col-lg-3 col-md-3">
+              <div class="p-relative">
+                <a class="servCircleBox">
+                  <div class="my-auto circleContent">
+                    <center>
+                      <img
+                        src="./img/rent.png"
+                        class="img-fluid"
+                        width="50px"
+                      />
+                    </center>
+                    <div class="text-primary mt-2 text-center">
+                      <h6 class="fw-bold mb-0">Buying</h6>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-12 col-lg-3 col-md-3">
+              <div class="p-relative">
+                <a class="servCircleBox">
+                  <div class="my-auto circleContent">
+                    <center>
+                      <img
+                        src="./img/deal.png"
+                        class="img-fluid"
+                        width="50px"
+                      />
+                    </center>
+                    <div class="text-primary mt-2 text-center">
+                      <h6 class="fw-bold mb-0">Commercial</h6>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-12 col-lg-3 col-md-3">
+              <div class="p-relative">
+                <a class="servCircleBox">
+                  <div class="my-auto circleContent">
+                    <center>
+                      <img
+                        src="./img/cooperation.png"
+                        class="img-fluid"
+                        width="50px"
+                      />
+                    </center>
+                    <div class="text-primary mt-2 text-center">
+                      <h6 class="fw-bold mb-0">Joint Venture</h6>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-12 col-lg-3 col-md-3">
+              <div class="p-relative">
+                <a class="servCircleBox">
+                  <div class="my-auto circleContent">
+                    <center>
+                      <img
+                        src="./img/mortgage-loan.png"
+                        class="img-fluid"
+                        width="50px"
+                      />
+                    </center>
+                    <div class="text-primary mt-2 text-center">
+                      <h6 class="fw-bold mb-0">Plots</h6>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <!--  -->
       <section class="home-about">
         <div class="container-fluid">
           <div id="home-about-row" class="row">
             <div class="col-md-6 z-1">
-              <img class="img-fluid" src="./img/logo.png" alt="DMAG Image" />
+              <img
+                class="img-fluid opacity-70"
+                src="./img/logo.png"
+                alt="DMAG Image"
+              />
             </div>
 
             <div class="col-md-6" id="home-about-right">
-              <h2 class="home-about-title">ABOUT Chalet</h2>
+              <h2 class="home-about-title subheading">About Chalet</h2>
               <p class="home-about-p">
                 Discover unparalleled property investment opportunities with
                 Chalet International, where we exceed expectations and offer a
@@ -321,7 +380,7 @@
       </section>
 
       <section class="logo-slider">
-        <h4 class="text-center fw-semibold pt-5">
+        <h4 class="text-center subheading pt-5">
           PARTNERS WITH DUBAI’S LEADING DEVELOPERS
         </h4>
         <div class="container">
@@ -433,12 +492,10 @@
 
       <section class="subscribe mt-5">
         <div class="article">
-          <h4 class="article-subtitle subscribe-subtitle">
+          <h4 class="article-subtitle subscribe-subtitle subheading">
             Subscribe to our newsletter.
           </h4>
-          <h3 class="article-title subscribe-title">
-            INSIGHT.&nbsp UPDATES.&nbsp CONNECTED.
-          </h3>
+
           <p class="article-text subscribe-text">
             Unlock exclusive real estate insights with our dynamic newsletter,
             delivering curated updates, market trends, and insider perspectives.
@@ -662,22 +719,35 @@
           </div>
           <div class="col-md-4">
             <h5>Contact Information</h5>
-            <p> 312, 3rd Floor, Al Abraj Street, Burlington Tower, Business Bay – Dubai.</p>
+            <p>
+              312, 3rd Floor, Al Abraj Street, Burlington Tower, Business Bay –
+              Dubai.
+            </p>
             <p>Email: info@chaletipi.com</p>
             <p>Phone: +971 58 583 1344</p>
             <h5>Follow Us</h5>
             <ul class="list-inline">
               <li class="list-inline-item">
-                <a href="https://www.facebook.com/chaletipi"><i class="fa fa-facebook iccon"></i></a>
+                <a href="https://www.facebook.com/chaletipi"
+                  ><i class="fa fa-facebook iccon"></i
+                ></a>
               </li>
               <li class="list-inline-item">
-                <a href="https://www.linkedin.com/company/chalet-international-property/?originalSubdomain=ae"><i class="fa fa-linkedin iccon"></i></a>
+                <a
+                  href="https://www.linkedin.com/company/chalet-international-property/?originalSubdomain=ae"
+                  ><i class="fa fa-linkedin iccon"></i
+                ></a>
               </li>
               <li class="list-inline-item">
-                <a href="https://www.instagram.com/chaletipi/"><i class="fa fa-instagram iccon"></i></a>
+                <a href="https://www.instagram.com/chaletipi/"
+                  ><i class="fa fa-instagram iccon"></i
+                ></a>
               </li>
               <li class="list-inline-item">
-                <a href="https://www.google.com/search?q=chalet+international+real+estate&sca_esv=596043816&sxsrf=AM9HkKlaAhIMwAyuz4dAwuULH0_VjCLiUg%3A1704489030877&source=hp&ei=RnCYZaiRM7qLxc8Pveum0A8&iflsig=AO6bgOgAAAAAZZh-VoSPPw0CyN2_VH3W3yL8qkjt_Vis&gs_ssp=eJwNxEsKgCAQAFDaBt3BTWtH7WMdoVtMOpYgRjaQx6-3eG0nD6kUHz7l572hWXuohsYwLehQa4W7CitUb8DvYLWbbTCDp024ExOxiJmpZOR4ZUyi0B89jEwfwXYc7w&oq=cha&gs_lp=Egdnd3Mtd2l6IgNjaGEqAggCMgQQIxgnMgQQIxgnMhAQLhiABBiKBRjHARivARgnMgQQIxgnMggQABiABBixAzILEAAYgAQYsQMYgwEyCBAuGIAEGLEDMgUQLhiABDIIEAAYgAQYsQMyDRAAGIAEGIoFGLEDGApIlT1QxQhYyRpwBHgAkAEAmAHIAaAB7gWqAQUwLjMuMbgBA8gBAPgBAagCCsICBxAjGOoCGCfCAg0QLhjHARjRAxjqAhgnwgINEC4YxwEYrwEY6gIYJ8ICChAjGIAEGIoFGCfCAhEQLhiABBixAxiDARjHARjRA8ICCxAAGIAEGIoFGLEDwgIOEAAYgAQYigUYsQMYgwHCAg4QLhiABBiKBRixAxiDAQ&sclient=gws-wiz#lrd=0x3e5f69aca221ab1f:0xd30db082c78f34de,1,,,,"><i class="fa fa-google iccon"></i></a>
+                <a
+                  href="https://www.google.com/search?q=chalet+international+real+estate&sca_esv=596043816&sxsrf=AM9HkKlaAhIMwAyuz4dAwuULH0_VjCLiUg%3A1704489030877&source=hp&ei=RnCYZaiRM7qLxc8Pveum0A8&iflsig=AO6bgOgAAAAAZZh-VoSPPw0CyN2_VH3W3yL8qkjt_Vis&gs_ssp=eJwNxEsKgCAQAFDaBt3BTWtH7WMdoVtMOpYgRjaQx6-3eG0nD6kUHz7l572hWXuohsYwLehQa4W7CitUb8DvYLWbbTCDp024ExOxiJmpZOR4ZUyi0B89jEwfwXYc7w&oq=cha&gs_lp=Egdnd3Mtd2l6IgNjaGEqAggCMgQQIxgnMgQQIxgnMhAQLhiABBiKBRjHARivARgnMgQQIxgnMggQABiABBixAzILEAAYgAQYsQMYgwEyCBAuGIAEGLEDMgUQLhiABDIIEAAYgAQYsQMyDRAAGIAEGIoFGLEDGApIlT1QxQhYyRpwBHgAkAEAmAHIAaAB7gWqAQUwLjMuMbgBA8gBAPgBAagCCsICBxAjGOoCGCfCAg0QLhjHARjRAxjqAhgnwgINEC4YxwEYrwEY6gIYJ8ICChAjGIAEGIoFGCfCAhEQLhiABBixAxiDARjHARjRA8ICCxAAGIAEGIoFGLEDwgIOEAAYgAQYigUYsQMYgwHCAg4QLhiABBiKBRixAxiDAQ&sclient=gws-wiz#lrd=0x3e5f69aca221ab1f:0xd30db082c78f34de,1,,,,"
+                  ><i class="fa fa-google iccon"></i
+                ></a>
               </li>
             </ul>
           </div>
@@ -717,7 +787,10 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <script src="./js/script.js"></script>
-    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
