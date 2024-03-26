@@ -35,8 +35,8 @@ var swiper = new Swiper(".mySwiper2", {
     rotate: 0,
     stretch: 0,
     depth: 150,
-    modifier: 2.5,
-    slideShadows: true,
+    modifier: 1,
+    slideShadows: false,
   },
   autoplay: {
     delay: 3000,
