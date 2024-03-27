@@ -73,3 +73,34 @@ var swiper = new Swiper(".mySwiper1", {
     },
   },
 });
+
+//
+
+var swiper = new Swiper(".mySwiper4", {
+  slidesPerView: 1,
+  spaceBetween: 10,
+  loop: true,
+  pagination: {
+    el: "#swiper-pagination-news",
+    clickable: true,
+    dynamicBullets: true,
+  },
+  breakpoints: {
+    640: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    992: {
+      slidesPerView: 2,
+      spaceBetween: 50,
+    },
+  },
+  navigation: {
+    nextEl: "#swiper-button-next-news",
+    prevEl: "#swiper-button-prev-news",
+  },
+});
