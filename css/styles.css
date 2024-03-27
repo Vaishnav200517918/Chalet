@@ -359,10 +359,10 @@
 .text-content {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: left;
   flex-direction: column;
   padding-top: 10px;
-  color: white;
+  color: #15264e;
 }
 .text-content h3 {
   font-size: 1.7rem;
@@ -375,25 +375,21 @@
   text-align: center;
 }
 .btn {
-  background-color: #232343;
-  border: 2px solid white;
+  background-color: white;
+  border: 2px solid #15264e;
   outline: none;
   font-size: 0.8rem;
-  border-radius: 0.5rem;
+  border-radius: 0;
   margin: 1rem 0;
   cursor: pointer;
-  color: white;
+  color: #15264e;
 }
 
-.btn:hover {
+/* .btn:hover {
   background-color: #232343;
   border: 2px solid white;
   color: white;
-}
-
-.property-btn {
-  background-color: #232343;
-}
+} */
 
 .home-section-two {
   color: black !important;
@@ -817,3 +813,84 @@
     display: none !important;
   }
 }
+
+/*  */
+
+.featured {
+  background-color: #15264e;
+  padding: 72px 96px;
+}
+
+.swiper-featured .swiper-slide {
+  height: auto !important;
+}
+
+.swiper-pagination-bullet {
+  width: 30px;
+  height: 3px;
+  border-radius: 0;
+  background-color: white;
+}
+
+.swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+  left: 90px;
+  bottom: -18px;
+  transform: translateX(0);
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  top: unset !important;
+  bottom: -35px;
+  width: 40px;
+  height: 40px;
+
+  background-color: #15264e;
+  background-position: center;
+  background-size: 40px;
+  background-repeat: no-repeat;
+  /* padding: 8px 16px; */
+  border-radius: 50%;
+  border: white solid 1px;
+  color: transparent;
+}
+
+.swiper-button-prev {
+  background-image: url("../img/prev.webp");
+  background-color: #15264e;
+  left: calc(0%);
+}
+
+.swiper-button-next {
+  background-image: url("../img/next.webp");
+  background-color: #15264e;
+  left: calc(50px);
+}
+
+.discover-btn {
+  position: absolute;
+  right: 0;
+  bottom: -35px;
+}
+
+@media (max-width: 771px) {
+  .featured {
+    padding: 72px 64px;
+  }
+
+  .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+    display: none;
+  }
+}
+
+@media (max-width: 499px) {
+  .featured {
+    padding: 72px 32px;
+  }
+}
+
+.futura {
+  font-family: "Futura", sans-serif !important;
+}
+
+/*  */
