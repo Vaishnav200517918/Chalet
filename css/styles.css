@@ -994,3 +994,92 @@
     padding: 0px 32px;
   }
 }
+
+/* ABOUT US */
+.about-hero {
+  background: linear-gradient(0deg, rgba(14, 6, 30, 0.3), rgba(23, 10, 41, 0.3)),
+    url("https://images.unsplash.com/photo-1582882198551-c0d7f863c5dd?q=80&w=2095&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-position: center;
+  background-size: cover;
+
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 0 128px;
+  padding-top: 128px;
+}
+.about-hero-container {
+  max-width: 500px;
+}
+
+.about-hero-container p,
+.about-hero-container h1 {
+  color: white;
+}
+.about-hero-title {
+  font-family: "Futura mid", sans-serif;
+}
+
+.person-text {
+  text-align: justify;
+  font-size: 1.2rem;
+  color: gray;
+  padding: 0 48px !important;
+}
+
+.person-img {
+  height: 400px;
+  object-fit: cover;
+}
+
+.card-person {
+  border: none !important ;
+}
+.about-person {
+  padding: 0 152px;
+}
+@media (max-width: 1300px) {
+  .person-text {
+    font-size: 1.1rem;
+    color: gray;
+  }
+  .about-person {
+    padding: 0 72px;
+  }
+}
+@media (max-width: 991px) {
+  .person-text {
+    padding: 0 !important;
+  }
+  .person-img {
+    height: unset;
+  }
+}
+
+@media (max-width: 700px) {
+  .about-person {
+    padding: 0 32px;
+  }
+
+  .about-hero {
+    padding: 0 32px;
+  }
+  .person-text {
+    font-size: 0.9rem;
+  }
+}
+
+/* about-video */
+
+.video-chalet {
+  height: 100%;
+  width: 100%;
+}
+.about-video {
+  width: 100%;
+  aspect-ratio: 16/9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
