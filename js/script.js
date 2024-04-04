@@ -104,3 +104,41 @@ var swiper = new Swiper(".mySwiper4", {
     prevEl: "#swiper-button-prev-news",
   },
 });
+
+var swiper = new Swiper(".mySwiper5", {
+  slidesPerView: 1,
+  grid: {
+    rows: 1,
+    fill: "row",
+  },
+  breakpoints: {
+    640: {
+      slidesPerView: 2,
+      grid: {
+        rows: 2,
+      },
+    },
+    768: {
+      slidesPerView: 2,
+      grid: {
+        rows: 2,
+      },
+    },
+    992: {
+      slidesPerView: 3,
+      grid: {
+        rows: 2,
+      },
+    },
+  },
+  spaceBetween: 30,
+  pagination: {
+    el: "#swiper-pagination-prop",
+    clickable: true,
+    dynamicBullets: true,
+  },
+  navigation: {
+    nextEl: "#swiper-button-next-prop",
+    prevEl: "#swiper-button-prev-prop",
+  },
+});
