@@ -1083,3 +1083,59 @@
   align-items: center;
   justify-content: center;
 }
+
+/* Filter */
+
+.sort-filter {
+  width: 280px;
+  margin-bottom: 12px;
+}
+
+.properties-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 64px;
+}
+
+.filter-flex select {
+  border-radius: 0;
+  color: white;
+  padding: 10px 14px;
+  background: url("../img/downarrow.png") no-repeat right;
+  background-size: 10px;
+  background-color: #15264e;
+  background-position-x: 96%;
+  padding-right: 40px;
+}
+
+.filter-flex2 {
+  flex-grow: 4;
+}
+
+.filter-flex3 {
+  flex-grow: 3;
+}
+
+.filter-flex4 {
+  flex-grow: 3;
+}
+
+.filter-flex5 {
+  flex-grow: 3;
+}
+
+.filter-flex6 {
+  flex-grow: 3;
+}
+
+.search-btn {
+  background-color: #15264e;
+  padding: 10px 14px;
+  color: white;
+}
+
+.filter-section {
+  padding: 0 128px;
+  margin-top: 64px;
+}
