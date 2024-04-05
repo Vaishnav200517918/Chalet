@@ -21,8 +21,16 @@
   font-size: 16px;
 }
 
+.swiper-slide img {
+  border-radius: 0;
+}
+
 @media (max-width: 991px) {
   .filter-section {
     padding: 0 32px !important;
   }
+}
+
+.swiper-featured .swiper-slide {
+  height: none !important;
 }
