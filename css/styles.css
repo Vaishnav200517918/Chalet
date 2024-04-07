@@ -1139,3 +1139,21 @@
   padding: 0 128px;
   margin-top: 64px;
 }
+
+/*  */
+
+.amenities-icon {
+  width: 20px !important;
+  height: 20px;
+}
+
+@media (max-width: 500px) {
+  .amenities-icon {
+    width: 12px !important;
+    height: 12px;
+  }
+
+  .properties-card p {
+    font-size: 14px;
+  }
+}
