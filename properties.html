@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Properties</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/properties.css"
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar-chalet navbar-dark navbar navbar-expand-lg position-absolute z-3 top-0 start-0 end-0"
+      >
+        <div class="container-fluid px-5">
+          <a class="navbar-brand" href="#">
+            <img
+              src="./img/Chalet-logo.png"
+              alt="Bootstrap"
+              width="110"
+              height="80"
+            />
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown px-o droplist-container">
+                <a
+                  class="nav-link dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  href="#"
+                  role="button"
+                  aria-expanded="false"
+                  >PROPERTIES</a
+                >
+                <ul class="dropdown-menu py-5">
+                  <div class="container d-flex gap-5">
+                    <div class="col">
+                      <img class="menu-img" src="./img/image1.webp" alt="" />
+                    </div>
+                    <div class="col d-flex flex-column px-5">
+                      <h3>How to: Buy in Dubai</h3>
+                      <p>
+                        Your guide to everything you should know when buying a
+                        property in Dubai, whether you are a first time buyer or
+                        investor.
+                      </p>
+                      <button class="btn-custom2">Know More</button>
+                    </div>
+                    <div class="col">
+                      <h3 class="">Buy</h3>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Apartments for sale in Dubai</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Villas for sale in Dubai</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Townhouses for sale in Dubai</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Penthouses for sale in Dubai</a
+                        >
+                      </li>
+                    </div>
+                  </div>
+                </ul>
+              </li>
+              <li class="nav-item dropdown droplist-container">
+                <a
+                  class="nav-link dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  href="#"
+                  role="button"
+                  aria-expanded="false"
+                  >OFF-PLAN PROJECTS</a
+                >
+                <ul class="dropdown-menu py-5">
+                  <div class="container d-flex gap-5">
+                    <div class="col">
+                      <img class="menu-img" src="./img/image3.webp" alt="" />
+                    </div>
+                    <div class="col d-flex flex-column px-5">
+                      <h3>Off-Plan in Dubai</h3>
+                      <p>
+                        Explore the latest off-plan projects in Dubai and Abu
+                        Dhabi from trusted property developers.
+                      </p>
+                      <button class="btn-custom2">Know More</button>
+                    </div>
+                    <div class="col">
+                      <h3 class="">Off-Plan</h3>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Apartments for sale in Dubai</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Villas for sale in Dubai</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Townhouses for sale in Dubai</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Penthouses for sale in Dubai</a
+                        >
+                      </li>
+                    </div>
+                  </div>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">DUBAI GUIDES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">BLOGS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ABOUT US</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="bg-nav"></div>
+
+      <!-- properties -->
+      <!-- Filter -->
+      <section class="filter-section">
+        <div class="filter-offplan">
+          <!-- <ul class="nav nav-underline">
+            <li class="nav-item">
+              <a class="nav-link properties-navlink" href="#">ALL</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link properties-navlink" href="#">READY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link properties-navlink active" href="#"
+                >OFF-PLAN</a
+              >
+            </li>
+          </ul> -->
+
+          <div class="sort-filter filter-flex">
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Sort By</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+
+          <div class="properties-filter">
+            <div class="filter-flex2 filter-flex">
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Put any keyword...</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+
+            <div class="filter-flex3 filter-flex">
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Property Type</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+            <div class="filter-flex4 filter-flex">
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Bed & Baths</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+            <div class="filter-flex5 filter-flex">
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Price</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+            <input class="search-btn" type="submit" value="SEARCH" />
+          </div>
+        </div>
+      </section>
+      <section class="featured position-relative offplan-section">
+        <!-- <h2 class="text-center subheading text-white">FEATURED LISTINGS</h2> -->
+
+        <div class="swiper-custom offplan-swiper position-relative">
+          <div class="swiper mySwiper5">
+            <div class="swiper-wrapper swiper-featured">
+              <!-- slide1 -->
+              <div class="swiper-slide properties-card">
+                <div class="card">
+                  <img
+                    src="./img/image1.webp"
+                    class="card-img-top"
+                    alt="Card Image"
+                  />
+                  <div class="card-body">
+                    <h6>Price: $300,000</h6>
+
+                    <h5 class="card-title">MASAAR SARO VILLA</h5>
+                    <div
+                      class="d-flex align-items-center justify-content-between flex-wrap mt-3"
+                    >
+                      <div class="d-flex align-items-center gap-2">
+                        <img
+                          class="amenities-icon"
+                          src="./img/bedroom.svg"
+                          alt=""
+                          width="50px"
+                        />
+                        <p class="m-0 text-nowrap"><span>6</span> Beds</p>
+                      </div>
+                      <div class="d-flex align-items-center gap-2">
+                        <img
+                          class="amenities-icon"
+                          src="./img/bathroom.svg"
+                          alt=""
+                          width="50px"
+                        />
+                        <p class="m-0 text-nowrap"><span>7</span> Baths</p>
+                      </div>
+                      <div class="d-flex align-items-center gap-2">
+                        <img
+                          class="amenities-icon"
+                          src="./img/area.svg"
+                          alt=""
+                          width="50px"
+                        />
+                        <p class="m-0 text-nowrap"><span>14,217</span> sq ft</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- slide2 -->
+
+              <div class="swiper-slide properties-card">
+                <div class="card">
+                  <img
+                    src="./img/image1.webp"
+                    class="card-img-top"
+                    alt="Card Image"
+                  />
+                  <div class="card-body">
+                    <h6>Price: $300,000</h6>
+
+                    <h5 class="card-title">MASAAR SARO VILLA</h5>
+                    <div
+                      class="d-flex align-items-center justify-content-between flex-wrap mt-3"
+                    >
+                      <div class="d-flex align-items-center gap-2">
+                        <img
+                          class="amenities-icon"
+                          src="./img/bedroom.svg"
+                          alt=""
+                          width="50px"
+                        />
+                        <p class="m-0 text-nowrap"><span>6</span> Beds</p>
+                      </div>
+                      <div class="d-flex align-items-center gap-2">
+                        <img
+                          class="amenities-icon"
+                          src="./img/bathroom.svg"
+                          alt=""
+                          width="50px"
+                        />
+                        <p class="m-0 text-nowrap"><span>7</span> Baths</p>
+                      </div>
+                      <div class="d-flex align-items-center gap-2">
+                        <img
+                          class="amenities-icon"
+                          src="./img/area.svg"
+                          alt=""
+                          width="50px"
+                        />
+                        <p class="m-0 text-nowrap"><span>14,217</span> sq ft</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- slide3 -->
+              <div class="swiper-slide properties-card">
+                <div class="card">
+                  <img
+                    src="./img/image1.webp"
+                    class="card-img-top"
+                    alt="Card Image"
+                  />
+                  <div class="card-body">
+                    <h6>Price: $300,000</h6>
+
+                    <h5 class="card-title">MASAAR SARO VILLA</h5>
+                    <div
+                      class="d-flex align-items-center justify-content-between flex-wrap mt-3"
+                    >
+                      <div class="d-flex align-items-center gap-2">
+                        <img
+                          class="amenities-icon"
+                          src="./img/bedroom.svg"
+                          alt=""
+                          width="50px"
+                        />
+                        <p class="m-0 text-nowrap"><span>6</span> Beds</p>
+                      </div>
+                      <div class="d-flex align-items-center gap-2">
+                        <img
+                          class="amenities-icon"
+                          src="./img/bathroom.svg"
+                          alt=""
+                          width="50px"
+                        />
+                        <p class="m-0 text-nowrap"><span>7</span> Baths</p>
+                      </div>
+                      <div class="d-flex align-items-center gap-2">
+                        <img
+                          class="amenities-icon"
+                          src="./img/area.svg"
+                          alt=""
+                          width="50px"
+                        />
+                        <p class="m-0 text-nowrap"><span>14,217</span> sq ft</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- slide2 -->
+
+              <div class="swiper-slide properties-card">
+                <div class="card">
+                  <img
+                    src="./img/image1.webp"
+                    class="card-img-top"
+                    alt="Card Image"
+                  />
+                  <div class="card-body">
+                    <h6>Price: $300,000</h6>
+
+                    <h5 class="card-title">MASAAR SARO VILLA</h5>
+                    <div
+                      class="d-flex align-items-center justify-content-between flex-wrap mt-3"
+                    >
+                      <div class="d-flex align-items-center gap-2">
+                        <img
+                          class="amenities-icon"
+                          src="./img/bedroom.svg"
+                          alt=""
+                          width="50px"
+                        />
+                        <p class="m-0 text-nowrap"><span>6</span> Beds</p>
+                      </div>
+                      <div class="d-flex align-items-center gap-2">
+                        <img
+                          class="amenities-icon"
+                          src="./img/bathroom.svg"
+                          alt=""
+                          width="50px"
+                        />
+                        <p class="m-0 text-nowrap"><span>7</span> Baths</p>
+                      </div>
+                      <div class="d-flex align-items-center gap-2">
+                        <img
+                          class="amenities-icon"
+                          src="./img/area.svg"
+                          alt=""
+                          width="50px"
+                        />
+                        <p class="m-0 text-nowrap"><span>14,217</span> sq ft</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide properties-card">
+                <div class="card">
+                  <img
+                    src="./img/image1.webp"
+                    class="card-img-top"
+                    alt="Card Image"
+                  />
+                  <div class="card-body">
+                    <h6>Price: $300,000</h6>
+
+                    <h5 class="card-title">MASAAR SARO VILLA</h5>
+                    <div
+                      class="d-flex align-items-center justify-content-between flex-wrap mt-3"
+                    >
+                      <div class="d-flex align-items-center gap-2">
+                        <img
+                          class="amenities-icon"
+                          src="./img/bedroom.svg"
+                          alt=""
+                          width="50px"
+                        />
+                        <p class="m-0 text-nowrap"><span>6</span> Beds</p>
+                      </div>
+                      <div class="d-flex align-items-center gap-2">
+                        <img
+                          class="amenities-icon"
+                          src="./img/bathroom.svg"
+                          alt=""
+                          width="50px"
+                        />
+                        <p class="m-0 text-nowrap"><span>7</span> Baths</p>
+                      </div>
+                      <div class="d-flex align-items-center gap-2">
+                        <img
+                          class="amenities-icon"
+                          src="./img/area.svg"
+                          alt=""
+                          width="50px"
+                        />
+                        <p class="m-0 text-nowrap"><span>14,217</span> sq ft</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- slide2 -->
+
+              <div class="swiper-slide properties-card">
+                <div class="card">
+                  <img
+                    src="./img/image1.webp"
+                    class="card-img-top"
+                    alt="Card Image"
+                  />
+                  <div class="card-body">
+                    <h6>Price: $300,000</h6>
+
+                    <h5 class="card-title">MASAAR SARO VILLA</h5>
+                    <div
+                      class="d-flex align-items-center justify-content-between flex-wrap mt-3"
+                    >
+                      <div class="d-flex align-items-center gap-2">
+                        <img
+                          class="amenities-icon"
+                          src="./img/bedroom.svg"
+                          alt=""
+                          width="50px"
+                        />
+                        <p class="m-0 text-nowrap"><span>6</span> Beds</p>
+                      </div>
+                      <div class="d-flex align-items-center gap-2">
+                        <img
+                          class="amenities-icon"
+                          src="./img/bathroom.svg"
+                          alt=""
+                          width="50px"
+                        />
+                        <p class="m-0 text-nowrap"><span>7</span> Baths</p>
+                      </div>
+                      <div class="d-flex align-items-center gap-2">
+                        <img
+                          class="amenities-icon"
+                          src="./img/area.svg"
+                          alt=""
+                          width="50px"
+                        />
+                        <p class="m-0 text-nowrap"><span>14,217</span> sq ft</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide properties-card">
+                <div class="card">
+                  <img
+                    src="./img/image1.webp"
+                    class="card-img-top"
+                    alt="Card Image"
+                  />
+                  <div class="card-body">
+                    <h6>Price: $300,000</h6>
+
+                    <h5 class="card-title">MASAAR SARO VILLA</h5>
+                    <div
+                      class="d-flex align-items-center justify-content-between flex-wrap mt-3"
+                    >
+                      <div class="d-flex align-items-center gap-2">
+                        <img
+                          class="amenities-icon"
+                          src="./img/bedroom.svg"
+                          alt=""
+                          width="50px"
+                        />
+                        <p class="m-0 text-nowrap"><span>6</span> Beds</p>
+                      </div>
+                      <div class="d-flex align-items-center gap-2">
+                        <img
+                          class="amenities-icon"
+                          src="./img/bathroom.svg"
+                          alt=""
+                          width="50px"
+                        />
+                        <p class="m-0 text-nowrap"><span>7</span> Baths</p>
+                      </div>
+                      <div class="d-flex align-items-center gap-2">
+                        <img
+                          class="amenities-icon"
+                          src="./img/area.svg"
+                          alt=""
+                          width="50px"
+                        />
+                        <p class="m-0 text-nowrap"><span>14,217</span> sq ft</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- slide2 -->
+
+              <div class="swiper-slide properties-card">
+                <div class="card">
+                  <img
+                    src="./img/image1.webp"
+                    class="card-img-top"
+                    alt="Card Image"
+                  />
+                  <div class="card-body">
+                    <h6>Price: $300,000</h6>
+
+                    <h5 class="card-title">MASAAR SARO VILLA</h5>
+                    <div
+                      class="d-flex align-items-center justify-content-between flex-wrap mt-3"
+                    >
+                      <div class="d-flex align-items-center gap-2">
+                        <img
+                          class="amenities-icon"
+                          src="./img/bedroom.svg"
+                          alt=""
+                          width="50px"
+                        />
+                        <p class="m-0 text-nowrap"><span>6</span> Beds</p>
+                      </div>
+                      <div class="d-flex align-items-center gap-2">
+                        <img
+                          class="amenities-icon"
+                          src="./img/bathroom.svg"
+                          alt=""
+                          width="50px"
+                        />
+                        <p class="m-0 text-nowrap"><span>7</span> Baths</p>
+                      </div>
+                      <div class="d-flex align-items-center gap-2">
+                        <img
+                          class="amenities-icon"
+                          src="./img/area.svg"
+                          alt=""
+                          width="50px"
+                        />
+                        <p class="m-0 text-nowrap"><span>14,217</span> sq ft</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide properties-card">
+                <div class="card">
+                  <img
+                    src="./img/image1.webp"
+                    class="card-img-top"
+                    alt="Card Image"
+                  />
+                  <div class="card-body">
+                    <h6>Price: $300,000</h6>
+
+                    <h5 class="card-title">MASAAR SARO VILLA</h5>
+                    <div
+                      class="d-flex align-items-center justify-content-between flex-wrap mt-3"
+                    >
+                      <div class="d-flex align-items-center gap-2">
+                        <img
+                          class="amenities-icon"
+                          src="./img/bedroom.svg"
+                          alt=""
+                          width="50px"
+                        />
+                        <p class="m-0 text-nowrap"><span>6</span> Beds</p>
+                      </div>
+                      <div class="d-flex align-items-center gap-2">
+                        <img
+                          class="amenities-icon"
+                          src="./img/bathroom.svg"
+                          alt=""
+                          width="50px"
+                        />
+                        <p class="m-0 text-nowrap"><span>7</span> Baths</p>
+                      </div>
+                      <div class="d-flex align-items-center gap-2">
+                        <img
+                          class="amenities-icon"
+                          src="./img/area.svg"
+                          alt=""
+                          width="50px"
+                        />
+                        <p class="m-0 text-nowrap"><span>14,217</span> sq ft</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- slide2 -->
+
+              <div class="swiper-slide properties-card">
+                <div class="card">
+                  <img
+                    src="./img/image1.webp"
+                    class="card-img-top"
+                    alt="Card Image"
+                  />
+                  <div class="card-body">
+                    <h6>Price: $300,000</h6>
+
+                    <h5 class="card-title">MASAAR SARO VILLA</h5>
+                    <div
+                      class="d-flex align-items-center justify-content-between flex-wrap mt-3"
+                    >
+                      <div class="d-flex align-items-center gap-2">
+                        <img
+                          class="amenities-icon"
+                          src="./img/bedroom.svg"
+                          alt=""
+                          width="50px"
+                        />
+                        <p class="m-0 text-nowrap"><span>6</span> Beds</p>
+                      </div>
+                      <div class="d-flex align-items-center gap-2">
+                        <img
+                          class="amenities-icon"
+                          src="./img/bathroom.svg"
+                          alt=""
+                          width="50px"
+                        />
+                        <p class="m-0 text-nowrap"><span>7</span> Baths</p>
+                      </div>
+                      <div class="d-flex align-items-center gap-2">
+                        <img
+                          class="amenities-icon"
+                          src="./img/area.svg"
+                          alt=""
+                          width="50px"
+                        />
+                        <p class="m-0 text-nowrap"><span>14,217</span> sq ft</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="swiper-pagination-prop" class="swiper-pagination"></div>
+
+          <div id="swiper-button-next-prop" class="swiper-button-next"></div>
+          <div id="swiper-button-prev-prop" class="swiper-button-prev"></div>
+          <button class="discover-btn btn-custom">Discover More</button>
+        </div>
+      </section>
+      <section class="subscribe">
+        <div class="article">
+          <h4 class="article-subtitle subscribe-subtitle subheading">
+            Subscribe to our newsletter.
+          </h4>
+
+          <p class="article-text subscribe-text">
+            Unlock exclusive real estate insights with our dynamic newsletter,
+            delivering curated updates, market trends, and insider perspectives.
+            Stay ahead in the property world with our concise, informative, and
+            timely dispatches. becomes your home. Welcome to a world of
+            elegance, welcome home.
+          </p>
+        </div>
+        <form class="email-form">
+          <input
+            class="email-form-address"
+            type="email"
+            placeholder="Email Address"
+          />
+          <input class="email-form-btn" type="submit" value="SUBSCRIBE" />
+        </form>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer1 text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h5>Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a class="nav-link" href="#">Home</a></li>
+              <li><a class="nav-link" href="#">Properties</a></li>
+              <li><a class="nav-link" href="#">About Us</a></li>
+              <li><a class="nav-link" href="#">Contact Us</a></li>
+              <li><a class="nav-link" href="#">FAQ</a></li>
+              <li><a class="nav-link" href="#">Terms of Service</a></li>
+              <li><a class="nav-link" href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5>Contact Information</h5>
+            <p>
+              312, 3rd Floor, Al Abraj Street, Burlington Tower, Business Bay –
+              Dubai.
+            </p>
+            <p>Email: info@chaletipi.com</p>
+            <p>Phone: +971 58 583 1344</p>
+            <h5>Follow Us</h5>
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/chaletipi"
+                  ><i class="fa fa-facebook iccon"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a
+                  href="https://www.linkedin.com/company/chalet-international-property/?originalSubdomain=ae"
+                  ><i class="fa fa-linkedin iccon"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.instagram.com/chaletipi/"
+                  ><i class="fa fa-instagram iccon"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a
+                  href="https://www.google.com/search?q=chalet+international+real+estate&sca_esv=596043816&sxsrf=AM9HkKlaAhIMwAyuz4dAwuULH0_VjCLiUg%3A1704489030877&source=hp&ei=RnCYZaiRM7qLxc8Pveum0A8&iflsig=AO6bgOgAAAAAZZh-VoSPPw0CyN2_VH3W3yL8qkjt_Vis&gs_ssp=eJwNxEsKgCAQAFDaBt3BTWtH7WMdoVtMOpYgRjaQx6-3eG0nD6kUHz7l572hWXuohsYwLehQa4W7CitUb8DvYLWbbTCDp024ExOxiJmpZOR4ZUyi0B89jEwfwXYc7w&oq=cha&gs_lp=Egdnd3Mtd2l6IgNjaGEqAggCMgQQIxgnMgQQIxgnMhAQLhiABBiKBRjHARivARgnMgQQIxgnMggQABiABBixAzILEAAYgAQYsQMYgwEyCBAuGIAEGLEDMgUQLhiABDIIEAAYgAQYsQMyDRAAGIAEGIoFGLEDGApIlT1QxQhYyRpwBHgAkAEAmAHIAaAB7gWqAQUwLjMuMbgBA8gBAPgBAagCCsICBxAjGOoCGCfCAg0QLhjHARjRAxjqAhgnwgINEC4YxwEYrwEY6gIYJ8ICChAjGIAEGIoFGCfCAhEQLhiABBixAxiDARjHARjRA8ICCxAAGIAEGIoFGLEDwgIOEAAYgAQYigUYsQMYgwHCAg4QLhiABBiKBRixAxiDAQ&sclient=gws-wiz#lrd=0x3e5f69aca221ab1f:0xd30db082c78f34de,1,,,,"
+                  ><i class="fa fa-google iccon"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5>Newsletter</h5>
+            <p class="m-0">
+              Subscribe to our newsletter for latest updates and offers.
+            </p>
+            <form action="" method="post">
+              <div class="my-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Enter your email"
+                  aria-label="Enter your email"
+                  aria-describedby="button-addon2"
+                />
+                <button
+                  class="btn btn-light mt-3"
+                  type="submit"
+                  id="button-addon2"
+                >
+                  Subscribe
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-md-12 text-center">
+            <p class="m-0">2024 Chalet. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <a
+      class="whats-app"
+      href="https://api.whatsapp.com/send?phone=+971585831344"
+      target="_blank"
+    >
+      <i class="fa fa-whatsapp my-float"></i>
+    </a>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
