@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20.556" height="17" viewBox="0 0 20.556 17" >
+                        <g id="double-bed" transform="translate(-0.5 -2.5)">
+                            <path id="Path_235" data-name="Path 235" d="M19,8.333V3H3V8.333" transform="translate(-0.222)" fill="none" stroke="#0d1d2c" stroke-linecap="square" stroke-width="1" />
+                            <path id="Path_236" data-name="Path 236" d="M7,8.778V7h4.444V8.778" transform="translate(-0.667 -0.444)" fill="none" stroke="#0d1d2c" stroke-linecap="square" stroke-width="1" />
+                            <path id="Path_237" data-name="Path 237" d="M12,8.778V7h4.444V8.778" transform="translate(-1.222 -0.444)" fill="none" stroke="#0d1d2c" stroke-linecap="square" stroke-width="1" />
+                            <path id="Path_238" data-name="Path 238" d="M20.556,20V13.778A1.778,1.778,0,0,0,18.778,12h-16A1.778,1.778,0,0,0,1,13.778V20" transform="translate(0 -1)" fill="none" stroke="#0d1d2c" stroke-linecap="square" stroke-width="1" />
+                            <line id="Line_42" data-name="Line 42" x2="19.556" transform="translate(1 16.333)" fill="none" stroke="#0d1d2c" stroke-width="1" />
+                        </g>
+                    </svg>
